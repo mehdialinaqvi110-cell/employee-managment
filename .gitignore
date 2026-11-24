@@ -1,0 +1,19 @@
+# Vue frontend
+employee-frontend/node_modules/
+employee-frontend/dist/
+
+# .NET backend
+EmployeeManagement.Api/bin/
+EmployeeManagement.Api/obj/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+
+# IDE files
+.vs/
+
+# Local database configuration
+EmployeeManagement.Api/appsettings.Development.json
